@@ -24,6 +24,6 @@ public class Project {
     private String status;
 
     @NotEmpty(message = "company name should be not empty")
-    @Size
+    @Size(min = 7)
     private String companyName;
 }
